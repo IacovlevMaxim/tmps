@@ -1,0 +1,41 @@
+{
+  "name": "tmps3-behavioral-patterns",
+  "version": "1.0.0",
+  "description": "TMPS Laboratory Work #3 - Behavioral Design Patterns in Ecosystem Management",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "watch": "tsc --watch",
+    "start:dev": "ts-node --watch src/index.ts"
+  },
+  "keywords": [
+    "design-patterns",
+    "behavioral-patterns",
+    "observer",
+    "strategy",
+    "command",
+    "chain-of-responsibility",
+    "typescript",
+    "tmps",
+    "laboratory-work"
+  ],
+  "author": "Drumea Vasile",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.21",
+    "rimraf": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/tmps-behavioral-patterns.git"
+  }
+}
